@@ -22,7 +22,7 @@ dependencies {
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-//    implementation 'com.gjm:pet-clinic-data:0.0.1-SNAPSHOT'
+    implementation project(':pet-clinic-data')
 }
 
 test {
